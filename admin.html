@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>إدارة الحضور</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+
+    <div class="admin-container">
+        <h2>إدارة الحضور</h2>
+        <div class="days">
+            <button id="sunday">الأحد</button>
+            <button id="monday">الإثنين</button>
+            <button id="tuesday">الثلاثاء</button>
+            <button id="wednesday">الأربعاء</button>
+            <button id="thursday">الخميس</button>
+            <button id="friday">الجمعة</button>
+        </div>
+
+        <div class="controls">
+            <button id="resetData">تجديد بيانات اليوم</button>
+            <button id="downloadData">تحميل البيانات</button>
+        </div>
+
+        <div id="attendanceMessage"></div>
+    </div>
+
+     <!-- الكائن الذي سيجري وراء الماوس -->
+     <div class="cursor"></div>
+
+     <!-- إضافة الدوائر -->
+     <div class="circle"></div>
+     <div class="circle"></div>
+     <div class="circle"></div>
+     <div class="circle"></div>
+     <div class="circle"></div>
+     <div class="circle"></div>
+     <div class="circle"></div>
+ 
+
+    <script src="admin.js"></script>
+</body>
+</html>
